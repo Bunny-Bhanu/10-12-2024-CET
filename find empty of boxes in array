@@ -1,0 +1,7 @@
+boxes=[1,0,2,0,3,4,0,5]
+boxes.sort(reverse=True)
+zero=0
+for i in boxes:
+  if i==0:
+    zero+=1
+print("The number of empty boxes",zero)
